@@ -1,0 +1,36 @@
+.gallery-filter{
+padding:12px 24px;
+border-radius:999px;
+background:white;
+font-weight:600;
+cursor:pointer;
+transition:.3s;
+}
+
+.gallery-filter:hover{
+transform:translateY(-2px);
+}
+
+.active-filter{
+background:#6D4BC3;
+color:white;
+}
+
+
+.nav-link{
+font-weight:600;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#6D4BC3;
+}
+
+.glass-card{
+background:rgba(255,255,255,.7);
+backdrop-filter:blur(12px);
+border-radius:24px;
+padding:2rem;
+box-shadow:
+0 10px 30px rgba(0,0,0,.08);
+}
